@@ -1,0 +1,10 @@
+<% for(var i = 0; i<posts.length; i++){ %>
+<% console.log(posts[i].title); %>
+<% }; %>
+for loop
+
+<% posts.forEach(function(post) { %>
+<%  console.log(post.title); %>
+<% }); %>
+
+for each loop
